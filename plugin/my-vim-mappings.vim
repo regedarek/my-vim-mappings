@@ -13,3 +13,10 @@ vmap > >gv
 nmap <CR> :nohlsearch<CR>
 nmap zz v$h
 imap <c-c> <esc>
+
+" enforce purity
+noremap  <Up> <Nop>
+noremap  <Down> <Nop>
+noremap  <Left> <Nop>
+noremap  <Right> <Nop>
+
